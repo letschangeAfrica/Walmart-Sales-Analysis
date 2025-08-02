@@ -7,8 +7,8 @@ An interactive Power BI dashboard analyzing sales performance, customer behavior
 
 ## Dashboard Sections
 
-![Sales Performance and Customer Insights](project/images/Overview.png)
-![Product Performance](project/images/ProductPerformance.png) 
+![Sales Performance and Customer Insights](project/images/Overview.PNG)
+![Product Performance](project/images/ProductPerformance.PNG) 
 
 ### 1. Sales Performance Overview
 **Key Metrics:**
