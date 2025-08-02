@@ -1,0 +1,196 @@
+Power BI Guided Project
+
+1. Get Data
+2. Prepare the Data
+3. Model the Data
+4. Visual the Data
+5. Publish the Data 
+
+
+1. Get Data
+
+From where you are getting the data!!!! 
+
+250+ connections!!!! 
+
+You connected the data from your local machine .. C Drive >> Desktop >> .csv 
+
+The file was deleted when you try to refresh >>> it is not updating!!!!! 
+
+Power Query Editor!!!!! 
+
+Datatypes 
+
+Postal Code 
+
+1
+2
+3
+4
+5
+6
+7
+
+Count
+
+Text Datatypes!!!! 
+
+ID column
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+How Text will be alligned in PQE?
+
+
+what if we have date column as int data type, if i chnage it to date datatype then it throws an error and if i chnage to text data type it works fine. which one is correct transform?
+
+YYYY-MM-DD >>Text Format!! >> Date Format!!!
+
+Text to columns!!!!
+
+Split the columns
+Delimeter
+Promote first row as Headers
+Conditional formatting
+append the tables
+merge the tables
+remove duplicates
+Fill up
+fill down
+Extract
+
+
+MODE in PQE? 
+
+Once the Transformation are done in PQE? 
+
+CLOSE AND APPLY!!!! 
+
+
+3. Data Modeling!!!!!
+
+2 Types
+
+Star Schema 
+Snowflake Schema 
+
+Fact with Dim 
+Dim with Fact Table!!!! 
+
+
+Only 1 Fact table with 5 Dim Tables!!! -- Star Schema
+
+Multiple Fact Table and multiple DIM tables --- Snowflake Schema!!!!
+
+Data Tables!!!!
+
+Types of Cardinalities
+
+4
+One - to - one
+One to Many
+many to one
+many to many 
+
+4. Data Visualization!!!
+
+Calcualted Column or Measures 
+
+DAX --- Data Analysis eXpression!!!! 
+
+Measure ---- it will reveal the output in a SINGLE or SCalar Value
+
+Calculation base upon ROW by Row --- Calcualted Column 
+
+14 Functions of DAX 
+
+250+ DAX Expressions!!!!
+
+
+Employee Data ---- Hirerachy!!!!! Tree structure of my Data!!!!! 
+
+Parent and Child relationship 
+
+Path
+Path Contains
+Path Item 
+
+I would like to create a New Column
+
+with Multiple Conditions with Multiple Outputs!!!! --- SWITCH!!!!! 
+
+Comparative analysis --- Bar, Column chart, 
+Part to whole analysis --- Pie chart, Do nut chart , 100% stack bar or column charts
+Trend analysis --- Line or Area chart 
+Limit my data --- Filter
+I want to see the Particular information -- Slicer 
+KPI's -- Card 
+Tree structure of the data ---- Decomposition Tree
+Eye to Detailed data ---- Table or Matrix 
+
+I have a Line Chart in this chart I want to Add bar chart!!!! ---- Tooltip 
+AI Visuals? --- Q&A , Key Performnce Influencer
+
+
+Can I create Multiple report in Power BI Desktop? ---- Yes
+Can I create Dashboard in Power BI Desktop --- NO!!!!! 
+
+
+Where Can I create Dashboard ---- Power BI Service 
+
+5. Publish 
+
+
+4 Regions
+
+East
+West
+North
+South --- Sameer
+
+
+sir in report how many visuals we should add to tackle one question/problem statment ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+we need to do it when we have more than one data table?  what if we have only one table? -- Data Modeling is NOT Required!!!
+
+
+
+if time allows, Could you please explain active vs inactive and cross and bi-directiinal concept in modelling.

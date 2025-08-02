@@ -1,0 +1,72 @@
+{
+  "name": "Walmart Premium Dashboard",
+  "dataColors": [
+    "#004F9A",
+    "#FFC220",
+    "#6EC4E8",
+    "#FF6B35",
+    "#44AF69",
+    "#FC6471",
+    "#7D5BA6",
+    "#333333"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2A2A2A",
+  "tableAccent": "#004F9A",
+  "good": "#44AF69",
+  "neutral": "#7D5BA6",
+  "bad": "#FC6471",
+  "visualStyles": {
+    "*": {
+      "page": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "outspacePane": {
+        "backgroundColor": "#F8F9FA"
+      },
+      "title": {
+        "fontFamily": "Segoe UI",
+        "fontSize": 14,
+        "fontColor": "#004F9A",
+        "alignment": "left"
+      },
+      "header": {
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "fontColor": "#333333",
+        "background": "#F0F4F8"
+      },
+      "filterCard": {
+        "backgroundColor": "#FFFFFF",
+        "border": true,
+        "borderColor": "#E0E0E0"
+      }
+    },
+    "card": {
+      "*": {
+        "label": {
+          "fontColor": "#666666",
+          "fontSize": 12
+        },
+        "value": {
+          "fontColor": "#004F9A",
+          "fontSize": 24,
+          "fontWeight": "bold"
+        }
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataLabels": {
+          "fontColor": "#333333",
+          "fontSize": 10
+        },
+        "axis": {
+          "gridlines": {
+            "color": "#E0E0E0"
+          }
+        }
+      }
+    }
+  }
+}
