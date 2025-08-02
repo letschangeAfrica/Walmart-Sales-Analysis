@@ -1,7 +1,7 @@
 # 🛒 Walmart Sales Analytics - Power BI Dashboard
 
 ## 📊 Dashboard Overview
-This interactive Power BI dashboard analyzes Walmart sales data across **5 key pages**, revealing trends in revenue, customer behavior, product performance, and payment methods.
+This interactive Power BI dashboard analyzes Walmart sales data across **2 key pages**, revealing trends in revenue, customer behavior, product performance, and payment methods.
 
 ---
 
