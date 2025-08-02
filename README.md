@@ -7,6 +7,9 @@ An interactive Power BI dashboard analyzing sales performance, customer behavior
 
 ## Dashboard Sections
 
+![Sales Performance and Customer Insights](images/Overview.png)
+![Product Performance](images/Product Performance.png) 
+
 ### 1. Sales Performance Overview
 **Key Metrics:**
 - **Total Revenue**: $318.48K (All-time sales across branches)  
