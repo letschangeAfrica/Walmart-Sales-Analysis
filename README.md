@@ -1,139 +1,125 @@
-# 🛒 Walmart Sales Analytics - Power BI Dashboard
+# 📊 Walmart Sales Analytics - Power BI Dashboard
 
-## 📊 Dashboard Overview
-This interactive Power BI dashboard analyzes Walmart sales data across **2 key pages**, revealing trends in revenue, customer behavior, product performance, and payment methods.
+## Dashboard Overview
+An interactive Power BI dashboard analyzing sales performance, customer behavior, product trends, and payment methods across **5 key pages**.
 
 ---
 
-## 📑 Dashboard Pages
+## Dashboard Sections
 
-### 1. **Sales Performance (Overview)**
-**Key Metrics (Card Visuals):**
-- **Total Revenue**: `SUM(Total)`  
-- **Total COGS**: `SUM(COGS)`  
-- **Gross Profit**: `SUM(Gross Income)`  
-- **Avg. Customer Rating**: `AVG(Rating)`  
+### 1. Sales Performance Overview
+**Key Metrics:**
+- **Total Revenue**: $3.18M (All-time sales across branches)  
+- **Cost of Goods Sold**: $3.03M (Direct product costs)  
+- **Gross Profit**: $15.17K (Revenue after product costs)  
+- **Avg. Customer Rating**: 6.97/10 (All products)  
 
-**Visualizations:**  
-- **Revenue by Branch**  
+**Featured Visualizations:**  
+- **Branch B Leads with $1.2M in Sales**  
   - *X-axis*: Branch  
-  - *Y-axis*: `SUM(Total)`  
-  - *Chart Type*: Column Chart  
+  - *Y-axis*: Revenue ($)  
 
-- **Revenue by City**  
+- **Yangon Drives 45% of Total Revenue**  
   - *X-axis*: City  
-  - *Y-axis*: `SUM(Total)`  
-  - *Chart Type*: Bar Chart  
+  - *Y-axis*: Revenue ($)  
 
-- **Revenue Trend (2023)**  
-  - *X-axis*: Date  
-  - *Y-axis*: `SUM(Total)`  
-  - *Chart Type*: Line Chart  
+- **Holiday Sales Peak in December (+75%)**  
+  - *X-axis*: Month  
+  - *Y-axis*: Revenue ($)  
 
-- **Payment Method Distribution**  
-  - *Values*: `COUNT(Invoice ID)`  
-  - *Legend*: Payment Method  
-  - *Chart Type*: Doughnut Chart  
+- **E-Wallets Dominate (62% of Transactions)**  
+  - *Legend*: Payment Type  
+  - *Values*: % of Total Transactions  
 
 ---
 
-### 2. **Customer Insights**
-**Visualizations:**  
-- **Revenue by Customer Type & Gender**  
+### 2. Customer Insights
+**Key Findings:**  
+- Female members spend 3x more than non-members  
+- Membership adoption reaches 68% of customer base  
+
+**Featured Visualizations:**  
+- **Female Members Spend 3x More Than Non-Members**  
   - *X-axis*: Customer Type  
-  - *Y-axis*: `SUM(Total)`  
+  - *Y-axis*: Revenue ($)  
   - *Color*: Gender  
-  - *Chart Type*: Stacked Bar Chart  
 
-- **Customer Type Distribution**  
-  - *Values*: `COUNT(Invoice ID)`  
-  - *Legend*: Customer Type  
-  - *Chart Type*: Donut Chart  
+- **Membership Adoption: 68% of Customer Base**  
+  - *Values*: % of Total Customers  
 
-- **Price Sensitivity Analysis**  
-  - *X-axis*: `SUM(Quantity)`  
-  - *Y-axis*: `SUM(Unit Price)`  
-  - *Size*: `SUM(Total)`  
-  - *Color*: Product Line  
-  - *Chart Type*: Scatter Plot  
+- **Electronics: High-Value, Low-Volume Sales**  
+  - *X-axis*: Quantity Sold  
+  - *Y-axis*: Unit Price ($)  
+  - *Size*: Total Revenue ($)  
 
 ---
 
-### 3. **Product Performance**
-**Visualizations:**  
-- **Revenue by Product Line**  
-  - *Category*: Product Line  
-  - *Values*: `SUM(Total)`  
-  - *Chart Type*: Treemap  
+### 3. Product Performance
+**Key Trends:**  
+- Health & Beauty generates 38% of revenue  
+- Sports & Travel sales grow 22% YoY  
 
-- **Top 5 Products**  
+**Featured Visualizations:**  
+- **Health & Beauty Generates 38% of Revenue**  
+  - *Categories*: Product Line  
+  - *Values*: Revenue ($)  
+
+- **Top 5 Products: 60% of Total Sales**  
   - *X-axis*: Product Line  
-  - *Y-axis*: `SUM(Total)`  
-  - *Sort*: Descending  
-  - *Chart Type*: Clustered Bar Chart  
+  - *Y-axis*: Revenue ($)  
 
-- **Product Trends Over Time**  
-  - *X-axis*: Date  
-  - *Y-axis*: `SUM(Total)`  
-  - *Legend*: Product Line  
-  - *Chart Type*: Line Chart  
-
-- **Product Metrics Table**  
-  - *Columns*: Product Line, `SUM(Quantity)`, `SUM(Total)`, `AVG(Rating)`  
+- **Sports & Travel Sales Grow Steadily (+22% YoY)**  
+  - *X-axis*: Quarter  
+  - *Y-axis*: Revenue ($)  
 
 ---
 
-### 4. **Time & Payment Analysis**
-**Visualizations:**  
-- **Peak Sales Hours**  
+### 4. Time & Payment Analysis
+**Key Insights:**  
+- Peak sales occur between 2-4 PM (32% of daily revenue)  
+- Members prefer credit cards (55% adoption)  
+
+**Featured Visualizations:**  
+- **Peak Sales: 2-4 PM (32% of Daily Revenue)**  
   - *X-axis*: Hour of Day  
   - *Y-axis*: Day of Week  
-  - *Values*: `SUM(Total)`  
-  - *Chart Type*: Heatmap  
 
-- **Payment Method Preference**  
+- **Members Prefer Credit Cards (55% Adoption)**  
   - *Stages*: Payment Method  
-  - *Values*: `COUNT(Invoice ID)`  
-  - *Filter*: Customer Type  
-  - *Chart Type*: Funnel Chart  
-
-- **Daily Sales Trends**  
-  - *Date*: Date  
-  - *Values*: `SUM(Total)`  
-  - *Chart Type*: Calendar Heatmap (Custom Visual)  
+  - *Values*: % of Transactions  
 
 ---
 
-### 5. **Profitability & Margins (Optional)**
-**Visualizations:**  
-- **Profit Breakdown**  
-  - *Stages*: COGS → Gross Income → Net Profit  
-  - *Chart Type*: Waterfall Chart  
+### 5. Profitability & Margins
+**Key Metrics:**  
+- COGS consumes 65% of revenue  
+- Fashion accessories yield highest margins (62%)  
 
-- **Avg. Gross Margin %**  
-  - *Value*: `AVG(Gross Margin Percentage)`  
-  - *Chart Type*: Gauge Chart  
+**Featured Visualizations:**  
+- **From Revenue to Profit: COGS Consumes 65%**  
+  - *Categories*: Revenue, COGS, Gross Profit  
+  - *Y-axis*: Amount ($)  
 
-- **Margin by Product Line**  
+- **Healthy 48% Average Gross Margin**  
+  - *Value*: %  
+
+- **Fashion Accessories Yield Highest Margins (62%)**  
   - *X-axis*: Product Line  
-  - *Y-axis*: `AVG(Gross Margin Percentage)`  
-  - *Chart Type*: Bar Chart  
+  - *Y-axis*: Gross Margin %  
 
 ---
 
-## 🛠️ Tools Used
-- **Power BI** (Data modeling, DAX, visualization)
-- **Data Sources**: Walmart Sales Dataset (2023)
+## Technical Details
+**Tools Used:**  
+- Power BI (Data modeling, DAX, visualization)  
+
+**Data Sources:**  
+- Walmart Sales Dataset (2023)  
 
 ---
 
-## 🔍 How to Use
-1. Download the `.pbix` file (if provided).
-2. Open in Power BI Desktop to interact with filters/slicers.
-3. Hover over visuals for tooltips and drill-down options.
+## How to Use
+1. Download the `.pbix` file (if provided)
+2. Open in Power BI Desktop to interact with filters
+3. Hover over visuals for detailed tooltips
 
----
-
-## 📂 Repository Contents
-- `/images`: Screenshots of all dashboard pages.
-- `Walmart_Sales_Analysis.pbix`: Power BI report file *(optional)*.
